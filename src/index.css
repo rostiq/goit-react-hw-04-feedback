@@ -14,14 +14,11 @@ code {
 button {
   margin-right: 1rem;
   cursor: pointer;
-  padding: 1rem;
   background-color: violet;
   border-style: none;
-  color: rgb(34, 33, 33);
+  color: white;
   font-size: 1rem;
-  font-weight: 900;
   box-shadow: 4px 4px aquamarine;
-  border-radius: 1rem;
 }
 
 button:hover {

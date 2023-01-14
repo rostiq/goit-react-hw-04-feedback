@@ -8,7 +8,8 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
         return (
           <button
             key={option}
-            onClick={() => onLeaveFeedback(option)}
+            name={option}
+            onClick={onLeaveFeedback}
           >
             {option}
           </button>
